@@ -1,0 +1,51 @@
+.header{
+    position: absolute;
+    height: 120px;
+    width: 100%;
+}
+
+.menu{
+    position: absolute;
+    left: 3%;
+    top: 20%;
+}
+
+.hamburger{
+    position: relative;
+    margin-left: 7%;
+    margin-top: 3%;
+
+    max-width: 74px;
+    max-height: 64px;
+}
+
+.menu_text{
+    position: absolute;
+    top: 30%;
+    margin-left: 110%;
+}
+
+.logo{    
+    position: absolute;
+    top: 30%;
+    max-width: 100%;
+    max-height: 100%;
+    left: 43%;
+
+    max-width: 115px;
+    max-height: 48px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.bag{
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    right:5%;
+    max-width: 50px;
+    max-height: 50px;
+}
