@@ -1,0 +1,155 @@
+.index_catalog{
+    display: flex;
+    margin: 32px 72px 181px 71px;
+    justify-content: space-between;
+    
+}
+
+.canvas{
+    position: absolute;
+    top: -22px;
+    left: 300px;
+}
+
+.go_to_catalog{
+    position: absolute;
+    display: flex;
+    top: 79%;
+    left: 16%;
+    font-size: 32px;
+    color: white;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    
+}
+
+.arrow_catalog{
+    margin-top: 17px;
+}
+
+.choose_up{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 116px;
+    margin-left: 72px;
+
+    background-color: #346357;
+    color: #FFFFFF;
+}
+
+.choose_down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choose_down span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 59px;
+    margin: 4%;
+    
+}
+
+.choose{
+    text-decoration-line: underline;
+}
+
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;   
+}
+
+.photo{
+    height: 500px;
+    width: 500px;
+     
+    
+    filter: drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.5));
+    border-radius: 30px;
+    display: flex;
+    
+}
+
+.text_photo{
+    position: absolute;
+    width: 75%;
+    height: 14%;
+
+    border-radius: 20px;
+    left: -14%;
+    top: 75%;
+
+    background: #B31218;
+    box-shadow: 10px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.text_photo1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(100%-10%);
+    line-height: 44px;
+
+    position: absolute;
+    top: 14px;
+    left: 30px;
+
+    color: #FFFFFF;
+}
+
+.photo:hover img {
+    transform: scale(1.1);
+    
+  }
+
+img {
+    transition: 0.25s;
+  }
+
+
+.make_your_cakes_text{
+    padding-top: 100px;
+    padding-left: 30%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 116px;
+
+    color: #000000;
+}
+
+.make_your_cakes{
+    position: absolute;
+    width: 503px;
+    height: 100px;
+    left: 200px;
+    margin-top: 300px;
+    padding-top: 20px;
+    background: #B31218;
+}
+
+.leeeeets_goooo{
+    margin-left: 170px;
+    top: 90px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
